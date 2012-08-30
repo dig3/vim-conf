@@ -1,6 +1,12 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
 
+" Use pathogen to easily modify the runtime path to include all
+" plugins under the ~/.vim/bundle directory
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
+
 " Basic commands
 set hidden          " hide buffers instead of closing them
 set nowrap          " don't wrap lines

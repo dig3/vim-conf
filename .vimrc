@@ -4,6 +4,11 @@ set nocompatible
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
 runtime bundle/vim-pathogen/autoload/pathogen.vim
+let g:pathogen_disabled = []
+
+" Uncomment a line to disable a plugin
+" call add(g:pathogen_disabled, 'vim-flake8')
+
 call pathogen#infect()
 call pathogen#helptags()
 

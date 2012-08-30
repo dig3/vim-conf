@@ -8,6 +8,7 @@ let g:pathogen_disabled = []
 
 " Uncomment a line to disable a plugin
 " call add(g:pathogen_disabled, 'vim-flake8')
+" call add(g:pathogen_disabled, 'vim-virtualenv')
 
 call pathogen#infect()
 call pathogen#helptags()

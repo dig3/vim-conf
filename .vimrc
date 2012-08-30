@@ -10,6 +10,7 @@ let g:pathogen_disabled = []
 " call add(g:pathogen_disabled, 'vim-flake8')
 " call add(g:pathogen_disabled, 'vim-virtualenv')
 " call add(g:pathogen_disabled, 'nerdcommenter')
+" call add(g:pathogen_disabled, 'taglist')
 
 call pathogen#infect()
 call pathogen#helptags()

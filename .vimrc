@@ -55,6 +55,8 @@ endif
 set list
 set listchars=tab:→·,trail:·,extends:»,precedes:«
 
+set colorcolumn=80
+
 " Python's settings
 autocmd filetype python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 

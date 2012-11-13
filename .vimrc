@@ -39,6 +39,7 @@ set noerrorbells    " don't beep
 set nobackup
 set noswapfile
 set clipboard=unnamedplus
+set cursorline
 
 nmap <silent> \/ :nohlsearch<CR>
 

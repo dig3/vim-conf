@@ -64,3 +64,4 @@ let NERDTreeIgnore=['\.pyc$', '\~$']
 " Python's settings
 autocmd filetype python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
+autocmd filetype htmldjango set tabstop=2 softtabstop=2 shiftwidth=2 expandtab

@@ -47,7 +47,7 @@ filetype plugin indent on
 
 " Colorscheme and syntax highlighting
 if &t_Co >= 256 || has("gui_running")
-    colorscheme evening
+    colorscheme torte
 endif
 
 if &t_Co > 2 || has("gui_running")
